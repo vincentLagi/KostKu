@@ -1,0 +1,129 @@
+import { Calendar, MapPin, Clock } from 'lucide-react';
+
+const NewsPage = () => {
+    return (
+        <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+            {/* Navbar */}
+            <nav className="bg-white shadow-md sticky top-0 z-50">
+                <div className="container mx-auto flex justify-between items-center px-6 py-4">
+                    <div className="flex items-center gap-3">
+                        <div className="w-12 h-12 bg-gradient-to-br from-[#053445] to-[#075670] rounded-lg flex items-center justify-center">
+                            <span className="text-white font-bold text-xl">K</span>
+                        </div>
+                        <span className="text-2xl font-bold text-[#053445]">KostKu</span>
+                    </div>
+
+                    <div className="flex gap-8">
+                        <a href="/" className="text-gray-600 hover:text-[#053445] font-semibold text-lg transition-colors duration-200 relative group">
+                            Home
+                            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#053445] group-hover:w-full transition-all duration-200"></span>
+                        </a>
+                        <a href="/news" className="text-[#053445] font-semibold text-lg relative">
+                            News
+                            <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#053445]"></span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+            {/* Hero Section */}
+            <section className="bg-gradient-to-br from-[#053445] via-[#064a5f] to-[#075670] py-16 px-4">
+                <div className="container mx-auto max-w-4xl text-center">
+                    <h1 className="text-5xl font-bold text-white mb-4">Berita Terbaru</h1>
+                    <p className="text-blue-100 text-lg">Ikuti perkembangan dan acara terbaru dari KostKu</p>
+                </div>
+            </section>
+
+            {/* News Content */}
+            <section className="py-16 px-4">
+                <div className="container mx-auto max-w-4xl">
+                    <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                        {/* Featured Image Placeholder */}
+                        <div className="bg-gradient-to-br from-[#053445] to-[#075670] h-64 flex items-center justify-center">
+                            <div className="text-center text-white">
+                                <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4 backdrop-blur-sm">
+                                    <Calendar className="w-10 h-10" />
+                                </div>
+                                <p className="text-xl font-semibold">Grand Opening Event</p>
+                            </div>
+                        </div>
+
+                        {/* Article Content */}
+                        <div className="p-8 md:p-12">
+                            <div className="flex flex-wrap gap-4 mb-6">
+                                <span className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 text-[#053445] rounded-full text-sm font-semibold">
+                                    <Calendar className="w-4 h-4" />
+                                    28 November 2025
+                                </span>
+                                <span className="inline-flex items-center gap-2 px-4 py-2 bg-green-50 text-green-700 rounded-full text-sm font-semibold">
+                                    <Clock className="w-4 h-4" />
+                                    Acara Mendatang
+                                </span>
+                            </div>
+
+                            <h2 className="text-3xl md:text-4xl font-bold text-[#053445] mb-6 leading-tight">
+                                Grand Opening KostKu - Demonstrasi Bisnis
+                            </h2>
+
+                            <div className="prose prose-lg max-w-none">
+                                <p className="text-gray-700 leading-relaxed mb-6">
+                                    Pada tanggal <strong>28 November 2025</strong>, KostKu akan membuka gerai untuk memperlihatkan demonstrasi dari bisnis kami.
+                                    Datanglah dan saksikan bagaimana KostKu dapat mempermudah pengelolaan kos Anda dengan fitur-fitur canggih dan antarmuka yang user-friendly.
+                                </p>
+
+                                <div className="bg-gradient-to-r from-blue-50 to-cyan-50 border-l-4 border-[#053445] p-6 rounded-r-lg my-6">
+                                    <h3 className="text-xl font-bold text-[#053445] mb-3">Yang Akan Anda Dapatkan:</h3>
+                                    <ul className="space-y-2 text-gray-700">
+                                        <li className="flex items-start gap-2">
+                                            <span className="text-[#053445] mt-1">✓</span>
+                                            <span>Demo langsung fitur-fitur unggulan KostKu</span>
+                                        </li>
+                                        <li className="flex items-start gap-2">
+                                            <span className="text-[#053445] mt-1">✓</span>
+                                            <span>Konsultasi gratis dengan tim ahli kami</span>
+                                        </li>
+                                        <li className="flex items-start gap-2">
+                                            <span className="text-[#053445] mt-1">✓</span>
+                                            <span>Penawaran spesial untuk pendaftar awal</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <p className="text-gray-700 leading-relaxed mb-6">
+                                    Acara ini akan menjadi kesempatan bagi Anda untuk melihat langsung bagaimana KostKu bekerja, bertanya langsung kepada tim kami,
+                                    dan mendapatkan wawasan tentang bagaimana aplikasi ini dapat meningkatkan efisiensi operasional kos Anda.
+                                </p>
+
+                                <div className="bg-gray-50 rounded-xl p-6 mt-8">
+                                    <h3 className="text-xl font-bold text-[#053445] mb-4">Informasi Acara</h3>
+                                    <div className="space-y-3 text-gray-700">
+                                        <div className="flex items-center gap-3">
+                                            <Calendar className="w-5 h-5 text-[#053445]" />
+                                            <span><strong>Tanggal:</strong> 28 November 2025</span>
+                                        </div>
+                                        <div className="flex items-center gap-3">
+                                            <Clock className="w-5 h-5 text-[#053445]" />
+                                            <span><strong>Waktu:</strong> 09:00 - 17:00 WIB</span>
+                                        </div>
+                                        <div className="flex items-center gap-3">
+                                            <MapPin className="w-5 h-5 text-[#053445]" />
+                                            <span><strong>Lokasi:</strong> Gerai KostKu (segera diumumkan)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="mt-8 pt-8 border-t border-gray-200">
+                                <button className="w-full md:w-auto px-8 py-4 bg-gradient-to-r from-[#053445] to-[#075670] text-white font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200">
+                                    Daftar Sekarang
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    );
+};
+
+export default NewsPage;
