@@ -1,5 +1,5 @@
 import { Calendar, MapPin, Clock } from 'lucide-react';
-
+import Logo from '../public/Logo/Logo KostKu.png'
 const NewsPage = () => {
     return (
         <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
@@ -7,10 +7,7 @@ const NewsPage = () => {
             <nav className="bg-white shadow-md sticky top-0 z-50">
                 <div className="container mx-auto flex justify-between items-center px-6 py-4">
                     <div className="flex items-center gap-3">
-                        <div className="w-12 h-12 bg-gradient-to-br from-[#053445] to-[#075670] rounded-lg flex items-center justify-center">
-                            <span className="text-white font-bold text-xl">K</span>
-                        </div>
-                        <span className="text-2xl font-bold text-[#053445]">KostKu</span>
+                        <img src={Logo} alt="" className='w-[8vw]'/>
                     </div>
 
                     <div className="flex gap-8">

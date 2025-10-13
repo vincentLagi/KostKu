@@ -1,4 +1,5 @@
-import { Home, Newspaper, CheckCircle, Zap, BarChart3, Building, Users, Clock, Star } from 'lucide-react';
+import { CheckCircle, Zap, BarChart3, Building, Star } from 'lucide-react';
+import Logo from '../public/Logo/Logo KostKu.png'
 import DashboardImg from '../public/Product/Dashboard KostKu.png';
 import ManageRoomImg from '../public/Product/ManageRoom KostKu.png';
 import RentFormImg from '../public/Product/RentForm KostKu.png';
@@ -10,10 +11,8 @@ const LandingPage = () => {
             <nav className="bg-white shadow-md sticky top-0 z-50">
                 <div className="container mx-auto flex justify-between items-center px-6 py-4">
                     <div className="flex items-center gap-3">
-                        <div className="w-12 h-12 bg-gradient-to-br from-[#053445] to-[#075670] rounded-lg flex items-center justify-center">
-                            <span className="text-white font-bold text-xl">K</span>
-                        </div>
-                        <span className="text-2xl font-bold text-[#053445]">KostKu</span>
+
+                        <img src={Logo} className='w-[8vw]' />
                     </div>
 
                     <div className="flex gap-8">
@@ -223,11 +222,11 @@ const LandingPage = () => {
                                 <div className="space-y-4">
                                     <div className="flex items-start gap-3">
                                         <CheckCircle className="w-5 h-5 text-amber-600 mt-0.5 flex-shrink-0" />
-                                        <p className="text-gray-700 font-semibold">Semua fitur Basic +</p>
+                                        <p className="text-gray-700 font-semibold">Semua fitur Basic + Kustomisasi Fitur </p>
                                     </div>
                                     <div className="flex items-start gap-3">
                                         <CheckCircle className="w-5 h-5 text-amber-600 mt-0.5 flex-shrink-0" />
-                                        <p className="text-gray-700">Kamar unlimited</p>
+                                        <p className="text-gray-700">Penambahan Fitur Yang Diinginkan</p>
                                     </div>
                                     <div className="flex items-start gap-3">
                                         <CheckCircle className="w-5 h-5 text-amber-600 mt-0.5 flex-shrink-0" />
@@ -236,14 +235,6 @@ const LandingPage = () => {
                                     <div className="flex items-start gap-3">
                                         <CheckCircle className="w-5 h-5 text-amber-600 mt-0.5 flex-shrink-0" />
                                         <p className="text-gray-700">Priority support 24/7</p>
-                                    </div>
-                                    <div className="flex items-start gap-3">
-                                        <CheckCircle className="w-5 h-5 text-amber-600 mt-0.5 flex-shrink-0" />
-                                        <p className="text-gray-700">Export data ke Excel/PDF</p>
-                                    </div>
-                                    <div className="flex items-start gap-3">
-                                        <CheckCircle className="w-5 h-5 text-amber-600 mt-0.5 flex-shrink-0" />
-                                        <p className="text-gray-700">Analytics & reporting lanjutan</p>
                                     </div>
                                 </div>
                             </div>
