@@ -1,5 +1,6 @@
 import { Calendar, MapPin, Clock } from 'lucide-react';
 import Logo from '../public/Logo/Logo KostKu.png'
+import QR from '../public/QR/QR.png'
 const NewsPage = () => {
     return (
         <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
@@ -134,7 +135,7 @@ const NewsPage = () => {
                                                 <p className="text-sm font-semibold mb-2">Scan untuk isi form</p>
                                                 <div className="w-32 h-32 bg-white rounded mx-auto flex items-center justify-center">
                                                     <div className="w-full h-full bg-gradient-to-br from-gray-200 to-gray-300 rounded flex items-center justify-center">
-                                                        <img src="src\assets\QR.png" alt="" />
+                                                        <img src={QR} alt="" />
                                                     </div>
                                                 </div>
                                             </div>
