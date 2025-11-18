@@ -104,7 +104,7 @@ const NewsPage = () => {
                                         </div>
                                         <div className="flex items-center gap-3">
                                             <MapPin className="w-5 h-5 text-[#053445]" />
-                                            <span><strong>Lokasi:</strong> Gerai KostKu (segera diumumkan)</span>
+                                            <span><strong>Lokasi:</strong> Gerbi 1, Kantin payung</span>
                                         </div>
                                     </div>
                                 </div>
