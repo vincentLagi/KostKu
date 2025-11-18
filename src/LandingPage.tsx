@@ -244,7 +244,7 @@ const LandingPage = () => {
             </section>
 
             {/* CTA Section */}
-            <section className="py-20 px-4 bg-gradient-to-br from-[#053445] via-[#064a5f] to-[#075670] text-white">
+            {/* <section className="py-20 px-4 bg-gradient-to-br from-[#053445] via-[#064a5f] to-[#075670] text-white">
                 <div className="container mx-auto max-w-4xl text-center">
                     <h2 className="text-4xl md:text-5xl font-bold mb-6">Siap Memulai?</h2>
                     <p className="text-xl text-cyan-50 mb-8 leading-relaxed">
@@ -255,7 +255,7 @@ const LandingPage = () => {
                         <CheckCircle className="w-5 h-5" />
                     </button>
                 </div>
-            </section>
+            </section> */}
 
             {/* Footer */}
             <footer className="bg-gradient-to-r from-[#053445] via-[#064a5f] to-[#075670] text-white py-12">
