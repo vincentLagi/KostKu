@@ -126,23 +126,7 @@ const NewsPage = () => {
                                 Berikan Feedback & Saran Anda
                             </h2>
 
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                                {/* QR Code */}
-                                <div className="flex flex-col items-center">
-                                    <div className="bg-gray-50 p-6 rounded-xl border-2 border-gray-200">
-                                        <div className="w-48 h-48 bg-gradient-to-br from-[#053445] to-[#075670] rounded-lg flex items-center justify-center">
-                                            <div className="text-center text-white">
-                                                <p className="text-sm font-semibold mb-2">Scan untuk isi form</p>
-                                                <div className="w-32 h-32 bg-white rounded mx-auto flex items-center justify-center">
-                                                    <div className="w-full h-full bg-gradient-to-br from-gray-200 to-gray-300 rounded flex items-center justify-center">
-                                                        <img src={QR} alt="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <p className="text-center text-sm text-gray-600 mt-4 font-semibold">Arahkan kamera ke QR Code</p>
-                                    </div>
-                                </div>
+                            <div className="grid grid-cols-1 gap-8 items-center">
 
                                 {/* Feedback Form Link & Info */}
                                 <div className="flex flex-col justify-center space-y-6">
@@ -178,7 +162,7 @@ const NewsPage = () => {
 
                                     <div className="pt-4">
                                         <a
-                                            href="https://docs.google.com/forms/d/e/1FAIpQLSc6bIASWQZMplLbTlMsV5VHUXqBqLOMWlBKhR4M7Uf5WFdKfw/viewform?usp=dialog"
+                                            href="https://docs.google.com/forms/d/e/1FAIpQLSeEypVjmRDUay5LpKzWKF016jmfLldXrft6hy3UrQnLJkDsdQ/viewform?usp=dialog"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="inline-block w-full md:w-auto px-8 py-4 bg-gradient-to-r from-[#053445] to-[#075670] text-white font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200 text-center"
@@ -188,7 +172,7 @@ const NewsPage = () => {
                                     </div>
 
                                     <p className="text-sm text-gray-600">
-                                        Atau akses form langsung melalui: <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6bIASWQZMplLbTlMsV5VHUXqBqLOMWlBKhR4M7Uf5WFdKfw/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="text-[#053445] font-semibold hover:underline break-all">forms.google.com/feedback</a>
+                                        Atau akses form langsung melalui: <a href="https://docs.google.com/forms/d/e/1FAIpQLSeEypVjmRDUay5LpKzWKF016jmfLldXrft6hy3UrQnLJkDsdQ/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="text-[#053445] font-semibold hover:underline break-all">forms.google.com/feedback</a>
                                     </p>
                                 </div>
                             </div>

@@ -43,9 +43,7 @@ const LandingPage = () => {
                     <p className="text-xl md:text-2xl leading-relaxed max-w-3xl mx-auto text-cyan-50 mb-8">
                         Aplikasi manajemen kos yang praktis. Ganti buku catatan dan spreadsheet Anda dengan satu sistem terpusat yang rapi dan efisien.
                     </p>
-                    <button className="bg-color-white text-[#053445] px-8 py-4 rounded-xl font-semibold text-lg hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-200">
-                        Mulai Sekarang
-                    </button>
+            
                 </div>
             </section>
 
@@ -191,10 +189,6 @@ const LandingPage = () => {
                                     </div>
                                     <div className="flex items-start gap-3">
                                         <CheckCircle className="w-5 h-5 text-emerald-600 mt-0.5 flex-shrink-0" />
-                                        <p className="text-gray-700">Maksimal 20 kamar</p>
-                                    </div>
-                                    <div className="flex items-start gap-3">
-                                        <CheckCircle className="w-5 h-5 text-emerald-600 mt-0.5 flex-shrink-0" />
                                         <p className="text-gray-700">Data tersimpan 1 tahun</p>
                                     </div>
                                     <div className="flex items-start gap-3">
@@ -226,10 +220,6 @@ const LandingPage = () => {
                                     </div>
                                     <div className="flex items-start gap-3">
                                         <CheckCircle className="w-5 h-5 text-amber-600 mt-0.5 flex-shrink-0" />
-                                        <p className="text-gray-700">Penambahan Fitur Yang Diinginkan</p>
-                                    </div>
-                                    <div className="flex items-start gap-3">
-                                        <CheckCircle className="w-5 h-5 text-amber-600 mt-0.5 flex-shrink-0" />
                                         <p className="text-gray-700">Data tersimpan selamanya</p>
                                     </div>
                                     <div className="flex items-start gap-3">
@@ -243,19 +233,7 @@ const LandingPage = () => {
                 </div>
             </section>
 
-            {/* CTA Section */}
-            {/* <section className="py-20 px-4 bg-gradient-to-br from-[#053445] via-[#064a5f] to-[#075670] text-white">
-                <div className="container mx-auto max-w-4xl text-center">
-                    <h2 className="text-4xl md:text-5xl font-bold mb-6">Siap Memulai?</h2>
-                    <p className="text-xl text-cyan-50 mb-8 leading-relaxed">
-                        Bergabunglah dengan ratusan pemilik kos yang sudah merasakan kemudahan mengelola properti dengan KostKu
-                    </p>
-                    <button className="bg-white text-[#053445] px-10 py-5 rounded-xl font-bold text-lg hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-200 inline-flex items-center gap-2">
-                        Coba Gratis Sekarang
-                        <CheckCircle className="w-5 h-5" />
-                    </button>
-                </div>
-            </section> */}
+
 
             {/* Footer */}
             <footer className="bg-gradient-to-r from-[#053445] via-[#064a5f] to-[#075670] text-white py-12">
@@ -271,8 +249,7 @@ const LandingPage = () => {
                         <div className="flex gap-8 text-cyan-100">
                             <a href="/" className="hover:text-white transition-colors">Home</a>
                             <a href="/news" className="hover:text-white transition-colors">News</a>
-                            <a href="/about" className="hover:text-white transition-colors">About</a>
-                            <a href="/contact" className="hover:text-white transition-colors">Contact</a>
+                            <a href="https://www.instagram.com/kostku.idn/" className="hover:text-white transition-colors">Contact</a>
                         </div>
                         <div className="mt-8 pt-8 border-t border-white/20 text-center text-cyan-200 text-sm">
                             <p>&copy; 2025 KostKu. All rights reserved.</p>
