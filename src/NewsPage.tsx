@@ -8,7 +8,7 @@ const NewsPage = () => {
             <nav className="bg-white shadow-md sticky top-0 z-50">
                 <div className="container mx-auto flex justify-between items-center px-6 py-4">
                     <div className="flex items-center gap-3">
-                        <img src={Logo} alt="" className='w-[8vw]' />
+                        <img src={Logo} alt="" className='w-8 md:w-12' />
                     </div>
 
                     <div className="flex gap-8">
