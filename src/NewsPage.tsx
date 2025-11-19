@@ -1,6 +1,6 @@
 import { Calendar, MapPin, Clock } from 'lucide-react';
 import Logo from '../public/Logo/Logo KostKu.png'
-import QR from '../public/QR.png'
+
 const NewsPage = () => {
     return (
         <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
