@@ -59,14 +59,14 @@ const LandingPage = () => {
 
                     <div className="grid md:grid-cols-3 gap-8 mb-12">
                         <div className="bg-gradient-to-br from-[#053445] to-[#064a5f] text-white p-8 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
-                            <div className="bg-white/20 backdrop-blur-sm w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+                            <div className="mx-auto bg-white/20 backdrop-blur-sm w-16 h-16 rounded-xl flex items-center justify-center mb-6">
                                 <Building className="w-8 h-8" />
                             </div>
                             <h3 className="text-2xl font-semibold mb-4">Satu Tempat</h3>
                             <p className="text-cyan-50 leading-relaxed">Semua data kamar, transaksi, dan riwayat sewa tersimpan rapi dalam satu aplikasi.</p>
                         </div>
 
-                        <div className="bg-gradient-to-br from-[#064a5f] to-[#075670] text-white p-8 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
+                        <div className="mx-auto bg-gradient-to-br from-[#064a5f] to-[#075670] text-white p-8 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
                             <div className="bg-white/20 backdrop-blur-sm w-16 h-16 rounded-xl flex items-center justify-center mb-6">
                                 <Zap className="w-8 h-8" />
                             </div>
@@ -74,7 +74,7 @@ const LandingPage = () => {
                             <p className="text-cyan-50 leading-relaxed">Input transaksi dalam hitungan menit. Tidak perlu buka-tutup banyak file.</p>
                         </div>
 
-                        <div className="bg-gradient-to-br from-[#075670] to-[#0a6884] text-white p-8 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
+                        <div className="mx-auto bg-gradient-to-br from-[#075670] to-[#0a6884] text-white p-8 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
                             <div className="bg-white/20 backdrop-blur-sm w-16 h-16 rounded-xl flex items-center justify-center mb-6">
                                 <BarChart3 className="w-8 h-8" />
                             </div>
