@@ -112,9 +112,11 @@ const NewsPage = () => {
                             </div>
 
                             <div className="mt-8 pt-8 border-t border-gray-200">
-                                <button className="w-full md:w-auto px-8 py-4 bg-gradient-to-r from-[#053445] to-[#075670] text-white font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200">
+                                {/* <button > */}
+                                    <a className="inline-block w-full md:w-auto px-8 py-4 bg-gradient-to-r from-[#053445] to-[#075670] text-white font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200 text-center" href="https://docs.google.com/forms/d/e/1FAIpQLSc6bIASWQZMplLbTlMsV5VHUXqBqLOMWlBKhR4M7Uf5WFdKfw/viewform?usp=dialog">
                                     Daftar Sekarang
-                                </button>
+                                    </a>
+                                {/* </button> */}
                             </div>
                         </div>
                     </div>
