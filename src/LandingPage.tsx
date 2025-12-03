@@ -4,6 +4,7 @@ import DashboardImg from '../public/Product/Dashboard KostKu.png';
 import ManageRoomImg from '../public/Product/ManageRoom KostKu.png';
 import RentFormImg from '../public/Product/RentForm KostKu.png';
 import RentHistoryImg from '../public/Product/RentHistory KostKu.png';
+import DemoVideo from './assets/demovideo.mp4';
 const LandingPage = () => {
     return (
         <div className="min-h-screen w-full bg-gradient-to-b from-slate-50 to-white">
@@ -44,6 +45,60 @@ const LandingPage = () => {
                         Aplikasi manajemen kos yang praktis. Ganti buku catatan dan spreadsheet Anda dengan satu sistem terpusat yang rapi dan efisien.
                     </p>
             
+                </div>
+            </section>
+
+            {/* Video Demo Section */}
+            <section className="py-20 px-4 bg-white">
+                <div className="container mx-auto max-w-6xl">
+                    <div className="text-center mb-12">
+                        <div className="inline-block mb-4">
+                            <span className="bg-gradient-to-r from-[#053445] to-[#075670] text-white px-6 py-2 rounded-full text-sm font-semibold">
+                                Demo Video
+                            </span>
+                        </div>
+                        <h2 className="text-4xl md:text-5xl font-bold text-[#053445] mb-4">Lihat KostKu Beraksi</h2>
+                        <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+                            Saksikan bagaimana KostKu dapat memudahkan pengelolaan kos Anda dalam video demo singkat ini
+                        </p>
+                    </div>
+
+                    <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-4 ring-[#053445]/10 hover:ring-[#053445]/30 transition-all duration-300">
+                        <div className="relative aspect-video bg-gradient-to-br from-slate-100 to-slate-200">
+                            <video 
+                                controls 
+                                className="w-full h-full object-cover"
+                                poster=""
+                            >
+                                <source src={DemoVideo} type="video/mp4" />
+                                Browser Anda tidak mendukung tag video.
+                            </video>
+                        </div>
+                    </div>
+
+                    <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl">
+                            <div className="w-12 h-12 bg-[#053445] rounded-full flex items-center justify-center mx-auto mb-4">
+                                <Zap className="w-6 h-6 text-white" />
+                            </div>
+                            <h4 className="font-bold text-[#053445] mb-2">Mudah Digunakan</h4>
+                            <p className="text-gray-600 text-sm">Interface yang intuitif dan user-friendly</p>
+                        </div>
+                        <div className="text-center p-6 bg-gradient-to-br from-emerald-50 to-teal-50 rounded-xl">
+                            <div className="w-12 h-12 bg-[#064a5f] rounded-full flex items-center justify-center mx-auto mb-4">
+                                <BarChart3 className="w-6 h-6 text-white" />
+                            </div>
+                            <h4 className="font-bold text-[#053445] mb-2">Fitur Lengkap</h4>
+                            <p className="text-gray-600 text-sm">Semua yang Anda butuhkan dalam satu aplikasi</p>
+                        </div>
+                        <div className="text-center p-6 bg-gradient-to-br from-amber-50 to-yellow-50 rounded-xl">
+                            <div className="w-12 h-12 bg-[#075670] rounded-full flex items-center justify-center mx-auto mb-4">
+                                <Building className="w-6 h-6 text-white" />
+                            </div>
+                            <h4 className="font-bold text-[#053445] mb-2">Profesional</h4>
+                            <p className="text-gray-600 text-sm">Tingkatkan profesionalitas pengelolaan kos Anda</p>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -185,15 +240,23 @@ const LandingPage = () => {
                                 <div className="space-y-4">
                                     <div className="flex items-start gap-3">
                                         <CheckCircle className="w-5 h-5 text-emerald-600 mt-0.5 flex-shrink-0" />
-                                        <p className="text-gray-700">Semua fitur dasar (Dashboard, Kelola Kamar, Formulir Sewa, Riwayat)</p>
+                                        <p className="text-gray-700 text-left">Semua fitur dasar (Dashboard, Kelola Kamar, Formulir Sewa, Riwayat)</p>
                                     </div>
                                     <div className="flex items-start gap-3">
                                         <CheckCircle className="w-5 h-5 text-emerald-600 mt-0.5 flex-shrink-0" />
-                                        <p className="text-gray-700">Data tersimpan 1 tahun</p>
+                                        <p className="text-gray-700 text-left">Data tersimpan 1 tahun</p>
                                     </div>
                                     <div className="flex items-start gap-3">
                                         <CheckCircle className="w-5 h-5 text-emerald-600 mt-0.5 flex-shrink-0" />
-                                        <p className="text-gray-700">Support via email</p>
+                                        <p className="text-gray-700 text-left">Support via email</p>
+                                    </div>
+                                    <div className="flex items-start gap-3">
+                                        <CheckCircle className="w-5 h-5 text-emerald-600 mt-0.5 flex-shrink-0" />
+                                        <p className="text-gray-700 text-left">Biaya pengembangan Rp 850.000</p>
+                                    </div>
+                                    <div className="flex items-start gap-3">
+                                        <CheckCircle className="w-5 h-5 text-emerald-600 mt-0.5 flex-shrink-0" />
+                                        <p className="text-gray-700 text-left">Biaya langganan per bulan Rp 150.000</p>
                                     </div>
                                 </div>
                             </div>
@@ -216,15 +279,19 @@ const LandingPage = () => {
                                 <div className="space-y-4">
                                     <div className="flex items-start gap-3">
                                         <CheckCircle className="w-5 h-5 text-amber-600 mt-0.5 flex-shrink-0" />
-                                        <p className="text-gray-700 font-semibold">Semua fitur Basic + Kustomisasi Fitur </p>
+                                        <p className="text-gray-700 font-semibold text-left">Semua fitur Basic + Kustomisasi Fitur</p>
                                     </div>
                                     <div className="flex items-start gap-3">
                                         <CheckCircle className="w-5 h-5 text-amber-600 mt-0.5 flex-shrink-0" />
-                                        <p className="text-gray-700">Data tersimpan selamanya</p>
+                                        <p className="text-gray-700 text-left">Data tersimpan selamanya</p>
                                     </div>
                                     <div className="flex items-start gap-3">
                                         <CheckCircle className="w-5 h-5 text-amber-600 mt-0.5 flex-shrink-0" />
-                                        <p className="text-gray-700">Priority support 24/7</p>
+                                        <p className="text-gray-700 text-left">Priority support 24/7</p>
+                                    </div>
+                                    <div className="flex items-start gap-3">
+                                        <CheckCircle className="w-5 h-5 text-amber-600 mt-0.5 flex-shrink-0" />
+                                        <p className="text-gray-700 text-left">Biaya pengembangan dan langganan tergantung fitur yang diminta</p>
                                     </div>
                                 </div>
                             </div>
